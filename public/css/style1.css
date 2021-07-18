@@ -1,0 +1,1602 @@
+/* start navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h5{
+    color: #FF5533;
+}
+.left{
+    display: flex;
+}
+.left input{
+    background-color: #1593FF;
+    color: white;
+    border: none;
+    width: 110px;
+    height: 40px;
+    border-radius: 80px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+.left input:hover{
+    background-color:#0079E1 !important;
+}
+.but{
+    border-bottom: 1px solid rgb(153, 153, 153);
+    width: 450px;
+}
+.facebook{
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #415A99;
+    color: white;
+}
+.facebook i{
+    position: relative;
+    right: 4pc;
+}
+.facebook input{
+    border: none;
+    background-color: #415A99;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.google{
+    border: 2px solid #9299A7;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    color: #5D7BAF;
+}
+.google i{
+    position: relative;
+    right: 4pc;
+}
+.google input{
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.apple{
+    border: 1px solid #ffffff;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+.apple i{
+    position: relative;
+    right: 4pc;
+}
+.apple input{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.email input{
+    width: 400px;
+}
+.twin{
+    display: flex;
+    justify-content: space-between;
+}
+.twin2{
+    display: flex; 
+    position: relative;
+    left:30%;
+
+}
+.submit input{
+    border: none;
+    background-color: #0984EE;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.close{
+    position: relative;
+    top: -120px;
+}
+/* end navbar */
+/* start carousel */
+
+.matn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%,-70%);  
+}
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .matn h2{
+      font-size: 1.6em !important;
+      margin-left: 30px !important;
+    }
+  }
+@media screen and (min-width: 644px) and (max-width: 768px){
+    .matn h2{
+      font-size: 1.3em !important;
+    }
+}
+@media screen and (min-width: 644px) and (max-width: 425px){
+    .matn h2{
+        color: red !important;
+    }
+}
+@media screen and (min-width: 40px) and (max-width: 700px) {
+    .matn h2{
+        font-size: .8em !important;
+        margin-left: 35px !important;
+        margin-top: -30px;
+    }
+}
+@media screen and (min-width: 40px) and (max-width: 380px) {
+    .matn h2{
+        font-size: .7em !important;
+        margin-left: 40px !important;
+    }
+}
+@media screen and (min-width: 40px) and (max-width: 325px) {
+    .matn h2{
+        font-size: .6em !important;
+        margin-left: 40px !important;
+    }
+}
+.boxbid{
+    background-color: #1A2B49;
+    height: 90px;
+    width: 740px;
+    margin-left: 15pc;
+    padding-top: 20px;
+}
+.sdsd:hover{
+    background-color: #0079E1 !important;
+}
+.input{
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+.input2{
+    width: 160px;
+    height: 50px;
+    border: none;
+}
+.input3{
+    width: 160px;
+    height: 50px;
+    border: none;
+}
+.input4{
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #1593FF;
+}
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .boxbid{
+        height: 90px;
+        width: 600px;
+        margin-left: 10pc;
+        padding-top: 20px;
+    }
+    .input{
+        width: 150px;
+        height: 50px;
+        border: none;
+    }
+    .input2{
+        width: 120px;
+        height: 50px;
+        border: none;
+    }
+    .input3{
+        width: 120px;
+        height: 50px;
+        border: none;
+    }
+    .input4{
+        width: 120px;
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: #1593FF;
+    }
+  }
+@media screen and (min-width: 644px) and (max-width: 768px){
+    .boxbid{
+        height: 90px;
+        width: 600px;
+        margin-left: 7pc;
+        padding-top: 20px;
+    }
+}
+@media screen and (min-width: 644px) and (max-width: 425px){
+    .boxbid{
+        height: 90px;
+        width: 200px;
+        margin-left: 10pc;
+        padding-top: 20px;
+    }
+    .input{
+        width: 150px;
+        height: 50px;
+        border: none;
+    }
+    .input2{
+        width: 120px;
+        height: 50px;
+        border: none;
+    }
+    .input3{
+        width: 120px;
+        height: 50px;
+        border: none;
+    }
+    .input4{
+        width: 120px;
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: #1593FF;
+    }
+}
+@media screen and (min-width: 40px) and (max-width: 700px) {
+    .boxbid{
+        height: 60px;
+        width: 420px;
+        margin-left: 3.5pc;
+        padding-top: 10px;
+    }
+    .input{
+        width: 100px;
+        height: 40px;
+        border: none;
+        margin-left: -1.6pc;
+    }
+    .input2{
+        width: 80px;
+        height: 40px;
+        border: none;
+    }
+    .input3{
+        width: 80px;
+        height: 40px;
+        border: none;
+    }
+    .input4{
+        width: 80px;
+        height: 40px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: #1593FF;
+    }
+}
+@media screen and (min-width: 40px) and (max-width: 380px) {
+    .boxbid{
+        height: 75px;
+        width: 350px;
+        margin-left: 3.5pc;
+        padding-top: 10px;
+        margin-top: -7px;
+    }
+    .input{
+        width: 100px;
+        height: 30px;
+        border: none;
+        margin-left: -1.6pc;
+    }
+    .input2{
+        width: 80px;
+        height: 30px;
+        border: none;
+    }
+    .input3{
+        width: 80px;
+        height: 30px;
+        border: none;
+    }
+    .input4{
+        width: 80px;
+        height: 30px;
+        margin-top: 3px;
+        margin-right: 20px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: #1593FF;
+    }
+}
+@media screen and (min-width: 40px) and (max-width: 325px) {
+    .boxbid{
+        height: 60px;
+        width: 320px;
+        margin-left: 2.6pc;
+        padding-top: 10px;
+        margin-top: -1px;
+    }
+    .input{
+        width: 100px;
+        height: 20px;
+        border: none;
+        margin-left: -1.6pc;
+    }
+    .input2{
+        width: 80px;
+        height: 20px;
+        border: none;
+    }
+    .input3{
+        width: 80px;
+        height: 20px;
+        border: none;
+    }
+    .input4{
+        width: 80px;
+        height: 20px;
+        margin-top: 3px;
+        margin-right: 20px;
+        border-radius: 50px;
+        border: none;
+        color: white;
+        background-color: #1593FF;
+    }
+}
+/* end carousel */
+/* start boxcard */
+.heart i{
+    border: 1px solid #FF5533;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 1.5em;
+    padding-top: 7px;
+    background-color: #FF5533;
+    color: white;
+    cursor: pointer;
+}
+.font h5{
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #1A2B49;
+}
+@media screen and (min-width: 644px) and (max-width: 768px){
+    .fo{
+        font-size: .7em;
+        font-weight: bold;
+    }
+}
+/* end boxcard */
+/* start main2 */
+.main2{
+    background-color: #FFF5F1;
+}
+.headname span{
+    font-size: 2em;
+    font-weight: bold;
+    color: #1A2B49;
+}
+.input8 input{
+    width: 120px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.in3 , .in4 ,.in7 , .in8{
+    width: 90px !important;
+}
+.in5{
+    width: 100px !important;
+}
+.in6{
+    width: 130px !important;
+}
+.in2:hover{
+    background-color: #1A2B49 !important;
+    color: wheat;
+}
+.in3:hover{
+    background-color: #1A2B49 !important;
+    color: wheat;
+}
+.in4:hover{
+    background-color: #1A2B49 !important;
+    color: wheat;
+}
+.in5:hover{
+    background-color: #1A2B49 !important;
+    color: wheat;
+}
+.in6:hover{
+    background-color: #1A2B49 !important;
+    color: wheat;
+}
+.in7:hover{
+    background-color: #1A2B49 !important;
+    color: wheat;
+}
+.in8:hover{
+    background-color: #1A2B49 !important;
+    color: wheat;
+}
+@media screen and (min-width: 644px) and (max-width: 768px){
+    .in8{
+        margin-top: 4px;
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width: 44px) and (max-width: 426px){
+    .in3{
+        margin-right: px;
+    }
+    .in7 , .in3 , .in4, .in8{
+        width: 70px !important;
+    }
+    .in5 , .in6 , .in7 , .in8{
+        margin-top: 5px;
+    }
+}
+.img1 img{
+    width: 110%;
+}
+.headname2{
+    font-size: 4em;
+    font-weight: bold;
+    color: #1A2B49;
+    position: relative;
+    right:  17%;
+}
+.matn2{
+    font-weight: bold;
+    font-size: .9em;
+}
+.inpt1{
+    border: 1px solid white;
+    background-color: white;
+    transition: all .7s;
+}
+.inpt1 img{
+    padding-left: 5px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    background-color: white;
+}
+.inpt1 input{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 15px;
+    background-color: white;
+}
+.inpt2{
+    border: 1px solid white;
+    background-color: white;
+    transition: all .7s;
+}
+.inpt2 img{
+    padding-left: 5px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    background-color: white;
+}
+.inpt2 input{
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 15px;
+    background-color: white;
+}
+.inpt3{
+    border: 1px solid white;
+    background-color: white;
+    transition: all .7s;
+}
+.inpt3 img{
+    padding-left: 5px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    background-color: white;
+}
+.inpt3 input{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 15px;
+    background-color: white;
+}
+.inpt4{
+    border: 1px solid white;
+    background-color: white;
+    transition: all .7s;
+}
+.inpt4 img{
+    padding-left: 5px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    background-color: white;
+}
+.inpt4 input{
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 10px;
+    background-color: white;
+}
+.inpt5{
+    border: 1px solid white;
+    background-color: white;
+    transition: all .7s;
+}
+.inpt5 img{
+    padding-left: 5px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    background-color: white;
+}
+.inpt5 input{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.inpt6{
+    border: 1px solid white;
+    background-color: white;
+    transition: all .7s;
+}
+.inpt6 img{
+    padding-left: 5px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    background-color: white;
+}
+.inpt6 input{
+    border: none;
+    outline: none;
+    width: 160px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 10px;
+    background-color: white;
+}
+.inpt7{
+    border: 1px solid white;
+    background-color: white;
+    transition: all .7s;
+}
+.inpt7 img{
+    padding-left: 5px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    background-color: white;
+}
+.inpt7 input{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.inpt8{
+    border: 1px solid white;
+    background-color: white;
+    transition: all .7s;
+}
+.inpt8 img{
+    padding-left: 5px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    background-color: white;
+}
+.inpt8 input{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 10px;
+    background-color: white;
+}
+.inpt9{
+    border: 1px solid white;
+    background-color: white;
+    transition: all .7s;
+}
+.inpt9 img{
+    padding-left: 5px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    background-color: white;
+}
+.inpt9 input{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: bold;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.inpt1:hover{
+    box-shadow: 1px 1px 5px 5px #c3c4c5;
+}
+.inpt2:hover{
+    box-shadow: 1px 1px 5px 5px #c3c4c5;
+}
+.inpt3:hover{
+    box-shadow: 1px 1px 5px 5px #c3c4c5;
+}
+.inpt4:hover{
+    box-shadow: 1px 1px 5px 5px #c3c4c5;
+}
+.inpt5:hover{
+    box-shadow: 1px 1px 5px 5px #c3c4c5;
+}
+.inpt6:hover{
+    box-shadow: 1px 1px 5px 5px #c3c4c5;
+}
+.inpt7:hover{
+    box-shadow: 1px 1px 5px 5px #c3c4c5;
+}
+.inpt8:hover{
+    box-shadow: 1px 1px 5px 5px #c3c4c5;
+}
+.inpt9:hover{
+    box-shadow: 1px 1px 5px 5px #c3c4c5;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .inpt5 input{
+        width: 130px;
+        padding-left: 5px;
+    }
+    .inpt6 input{
+        width: 150px;
+        padding-left: 5px;
+    }
+    .headname2{
+        position: relative;
+        right:  12%;
+    }
+}
+@media screen and (min-width: 44px) and (max-width: 426px){
+    .inpt3 input{
+        display: none;
+    }
+    .inpt3 img{
+        display: none;
+    }
+    .inpt6 input{
+        display: none;
+    }
+    .inpt6 img{
+        display: none;
+    }
+    .inpt9 input{
+        display: none;
+    }
+    .inpt9 img{
+        display: none;
+    }
+    .headname2{
+        position: relative;
+        right:  5%;
+        font-size: 2em;
+    }
+}
+@media screen and (min-width: 44px) and (max-width: 321px){
+    .inpt2 input{
+        display: none;
+    }
+    .inpt2 img{
+        display: none;
+    }
+    .inpt4 input{
+        display: none;
+    }
+    .inpt4 img{
+        display: none;
+    }
+    .inpt8 input{
+        display: none;
+    }
+    .inpt8 img{
+        display: none;
+    }
+}
+/* end main2 */
+/* start card */
+.headname3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1A2B49;
+    position: relative;
+    right:  0%;
+}
+.r-img img{
+    height: 15vh;
+}
+.mark i{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 1.2em;
+}
+.mark i:hover{
+    color: green !important;
+}
+.mark2 input{
+    background-color: #905949;
+    border: none;
+    font-weight: bold;
+    color: white;
+    width: 54px;
+    height: 20px;
+    font-size: .8em;
+    border-radius: 20%;
+    position: absolute;
+    top: 100px;
+    left: 15px;
+}
+.mat span{
+    font-size: .9em;
+    font-weight: bold;
+    margin-top: -50px;
+}
+.mat{
+    margin-top: -10px;
+}
+.mat2 span{
+    font-size: .8em;
+    font-weight: bold;
+    margin-top: -50px;
+}
+.mat2 i{
+    font-size: .9em;
+}
+.mat3 span{
+    font-size: .8em;
+    font-weight: bold;
+    margin-top: -50px;
+}
+.mat3 i{
+    font-size: .9em;
+}
+.mat4 span{
+    font-size: .8em;
+    font-weight: bold;
+    margin-top: -50px;
+}
+.mat4 i{
+    font-size: .9em;
+}
+.mat5{
+    display: flex;
+    justify-content: space-between;
+}
+.manman{
+    position: relative;
+    top: -1.5pc;
+}
+.left4{
+    font-size: .9em;
+    margin-top: 1.8pc;
+}
+.right4{
+    margin-top: 1.6pc
+}
+.left7{
+    font-size: .9em;
+    margin-top: 3.2pc;
+}
+.right7{
+    margin-top: 3.1pc
+}
+.right7 span{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.left8{
+    font-size: .9em;
+    margin-top: 3.2pc;
+}
+.right8{
+    margin-top: 3.1pc
+}
+.right8 span{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.right4 span{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.mat6 span{
+    position: absolute;
+    top: 70%;
+    left: 79%;
+    color: black;
+    font-size: .8em;
+}
+.mat7{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -7px;
+}
+.left5{
+    font-size: .8em;
+}
+.right5{
+    font-size: .8em;
+}
+.rezacard:hover{
+    box-shadow: 1px 1px 10px 2px #c3c4c5;
+}
+
+.mark3 input{
+    background-color: #1593FF;
+    border: none;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    height: 20px;
+    font-size: .8em;
+    border-radius: 20%;
+    position: absolute;
+    top: 100px;
+    left: 15px;
+}
+.mat8{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .mark2 input{
+        position: absolute;
+        top: 90px;
+        left: 15px;
+    }
+    .mark3 input{
+        position: absolute;
+        top: 90px;
+        left: 15px;
+    }
+    .left4{
+        margin-top: -10px;
+    }
+    .lef4t{
+        margin-top: 18px;
+    }
+    .lef5t{
+        margin-top: 55px;
+    }
+    .rezacard{
+        width: 110%;
+    }
+    .star span{
+        font-size: .9em;
+    }
+    .left7{
+        font-size: .9em;
+        margin-top: 1pc;
+    }
+    .left8{
+        font-size: .9em;
+        margin-top: 2.3pc;
+    }
+    .right8{
+        margin-top: 4.5pc
+    }
+}
+@media screen and (min-width: 44px) and (max-width: 768px){
+    .rezacard{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 44px) and (max-width: 321px){
+    .mark2 input{
+        top: 87px;
+    }
+}
+@media screen and (min-width: 44px) and (max-width: 426px){
+    .mark2 input{
+        top: 85px;
+    }
+}
+.rezacard{
+    cursor: pointer; 
+    height: 100%;
+}
+.mark4 input{
+    background-color: #FF7082;
+    border: none;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    height: 20px;
+    font-size: .8em;
+    border-radius: 20%;
+    position: absolute;
+    top: 100px;
+    left: 15px;
+}
+.left9{
+    font-size: .9em;
+    margin-top: 5.1pc;
+}
+.right9{
+    margin-top: 5pc
+}
+.right9 span{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .left9{
+        font-size: .9em;
+        margin-top: 2.9pc;
+    }
+    .mark4 input{
+        top: 90px;
+        left: 15px;
+    }
+}
+@media screen and (min-width: 40px) and (max-width: 426px){
+    .mark4 input{
+        top: 85px;
+        left: 15px;
+    }
+}
+/* end card */
+/* start card part2 */
+.center input{
+    width: 300px;
+    height: 50px;
+    border: 2px solid #1593FF;
+    color: #1593FF;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.alireza img{
+    height: 30vh;
+}
+.capp{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.capp1{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+.cap span{
+    font-weight: bold;
+    font-size: 1.5em;
+    color:white;
+
+}
+.cap2 input{
+    color: white;
+    font-weight: bold;
+    background-color: #1A2A46;
+    border-radius: 50px;
+    width: 180px;
+    cursor: pointer;
+}
+.alireza:hover{
+    border: 4px solid #1593FF;
+    transition: all 1s;
+}
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .capp1{
+        position: absolute;
+        top: 35%;
+        left: 12%;
+    }
+    .capp{
+        position: absolute;
+        top: 35%;
+        left: 21%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 792px){
+    .capp1{
+        position: absolute;
+        top: 38%;
+        left: 7%;
+    }
+    .capp1 .cap{
+        font-size: 12.5px;
+    }
+    .capp{
+        position: absolute;
+        top: 35%;
+        left: 9%;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 426px){
+    .alireza img{
+        height: 90px;
+    }
+    .alireza{
+        margin-top: 10px;
+    }
+    .headname3 span{
+        margin-left: 25px;
+    }
+    .capp1{
+        position: absolute;
+        top: 15%;
+        left: 17%;
+    }
+    .capp1 .cap{
+        font-size: 17px;
+    }
+    .capp{
+        position: absolute;
+        top: 15%;
+        left: 25%;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 376px){
+    .headname3 span{
+        margin-right: 4px;
+        font-size: .9em;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 321px){
+    .alireza{
+        margin-top: 10px;
+    }
+    .capp1{
+        position: absolute;
+        top: 15%;
+        left: 17%;
+    }
+    .capp1 .cap{
+        font-size: 12.5px;
+    }
+    .capp{
+        position: absolute;
+        top: 15%;
+        left: 20%;
+    }
+    .headname3 span{
+        font-size: 17.5px;
+        text-decoration: center;
+    }
+}
+/* end card part2 */
+/* start phone */
+.headname4{
+    display: flex;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.namelogo{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.logo img{
+    width: 110px;
+}
+.headname5{
+    display: flex;
+    margin-top: 12%;
+    margin-left: 5%;
+}
+.us2{
+    display: flex;
+}
+.three{
+    border: none;
+    margin-left: 15px;
+    background-color: #1593FF;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 70px;
+}
+.one{
+    width: 50px;
+    border: 2px solid rgb(155, 152, 152);
+    background-color: white;
+    outline: none;
+    height:40px;
+}
+.two{
+    outline: none;
+    width: 220px;
+    border: 2px solid rgb(155, 152, 152);
+    height:40px;
+}
+.us h6{
+    font-size: .7em;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.barcod{
+    margin-left: 18%;
+    margin-top: -5%;
+}
+.barcod h6{
+    font-size: .7em;
+    font-weight: bold;
+}
+.headname6{
+    margin-top: -5%;
+    margin-left: 5%;
+}
+.poop{
+    display: flex;
+}
+.poop img{
+    width: 150px;
+}
+.us3 h6{
+    font-size: .7em;
+}
+@media screen and (min-width: 60px) and (max-width: 426px){
+    .namelogo{
+        text-align: center;
+        font-size: 1em;
+    }
+    .namelogo{
+        margin-top: -25%;
+        margin-left: -7%;
+    }
+    .poop {
+        margin-left:20px;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 376px){
+    .namelogo h4{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .namelogo{
+        margin-top: -25%;
+        margin-left: -7%;
+    }
+    .poop{
+       margin-left:-2px;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 321px){
+    .namelogo h4{
+        text-align: center;
+        font-size: 1.1em;
+    }
+    .namelogo{
+        margin-top: -25%;
+        margin-left: -7%;
+    }
+    .poop{
+       margin-left:-27px;
+    }
+}
+/* end phone */
+/* start email */
+.el img{
+    width: 105%;
+    height: 50vh;
+    position: relative;
+    right: 15px;
+}
+.em h2{
+
+    color: #1A2B49;
+}
+.em2 p{
+
+    color: #1A2B49;
+    font-weight: bold;
+}
+.em3{
+    display: flex;
+}
+.em4{
+    border: none;
+    margin-right: -120px;
+    background-color: #1593FF;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 150px;
+}
+.em5 input{
+    width: 370px;
+}
+.sogand {
+    background-color: #D7FFDC;
+    height: 50vh;
+}
+.em6{
+    margin-top: 7pc;
+}
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .em5 input{
+        width: 300px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 792px){
+    .em5 input{
+        width: 180px;
+    } 
+    .phone-number{
+        margin-left: 1pc;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 426px){
+    .em6{
+        margin-top: 0pc;
+        text-align: center;
+    }
+    .em5 input{
+        width: 250px;
+    }
+    .sogand {
+        background-color: #D7FFDC;
+        height: 40vh;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 376px){
+    .em5 input{
+        width: 200px;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 321px){
+    .em5 input{
+        width: 150px;
+    }
+}
+.em7 span{
+    font-size: .8em;
+}
+@media screen and (min-width: 600px) and (max-width: 1440px){
+    .em7 span{
+        position: relative;
+        right: 15px;
+    }
+}
+/* end email */
+/* start bar */
+.headname7{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.alireza2:hover{
+    border: 4px solid #1593FF;
+    transition: all 1s;
+    
+}
+.mat6
+.alireza2 img{
+    height: 30vh;
+}
+.alireza2{
+    margin:  0px 10px;
+}
+.capt{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1025px){
+    .owl-carousel{
+        position: relative;
+        right: 2pc;
+    }
+    .phone-number{
+        margin-left: 10pc;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 769px){
+
+    .phone-number{
+        margin-left: 2pc;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 426px){
+    .em6{
+        margin-top: 0pc;
+        text-align: center;
+    }
+    .em5 input{
+        width: 250px;
+    }
+    .sogand {
+        background-color: #D7FFDC;
+        height: 40vh;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 376px){
+    .em5 input{
+        width: 200px;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 321px){
+    .em5 input{
+        width: 150px;
+    }
+}
+.em7 span{
+    font-size: .8em;
+}
+/* end bar */
+/* start bar2 */
+.part-one{
+    display: flex;
+    font-size: .9em;
+    height: 35px;
+
+}
+.one-part{
+    display: flex;
+    margin: 0px 5px;
+    border: 3px solid black;    
+}
+.one-one{
+    width: 25px;
+    background-color: #1A2B49;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.one-two{
+    width: 130px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.one-three{
+    width: 190px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.one-four{
+    width: 180px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.one-five{
+    width: 250px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.one-two:hover{
+    color: white;
+    background-color:#1A2B49 !important;
+}
+.one-three:hover{
+    color: white;
+    background-color:#1A2B49 !important;
+}
+.one-four:hover{
+    color: white;
+    background-color:#1A2B49 !important;
+}
+.one-five:hover{
+    color: white;
+    background-color:#1A2B49 !important;
+}
+.part-two{
+    display: flex;
+    font-size: .9em;
+    height: 35px;
+}
+.two-part{
+    display: flex;
+    margin: 0px 15px;
+    border: 3px solid black;    
+}
+.part-three{
+    display: flex;
+    font-size: .9em;
+    height: 35px;
+    margin-left: 20%;
+}
+.three-part{
+    display: flex;
+    margin: 0px 15px;
+    border: 3px solid black;    
+}
+.redmin{
+    margin-left: 210px;
+}
+@media screen and (min-width: 600px) and (max-width: 1025px){
+    .one-new{
+        margin-top:15px;
+    }
+    .one-Atla{
+        margin-left: 15px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 769px){
+    .one-new-yo{
+        margin-top:15px;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 426px){
+    .three-paris{
+        margin-top: 10px;
+    }
+    .one-Atla{
+        margin-left: 0px;
+    }
+}
+/* end bar2 */
+/* start footer */
+.z1{
+    display: flex;
+}
+.z2 span{
+    color: white;
+    font-weight: bold;
+
+}
+.z2 input{
+    width: 300px;
+    margin-top: 5px;
+}
+.z3{
+    margin-top: 12px;
+    padding-top: 5px;
+}
+.z3 img{
+    width: 150px;
+    padding-top: 10px;
+}
+.z5{
+    color: white;
+    font-weight: bold;
+    margin-top: 35%;
+}
+.z6{
+    color: white;
+}
+.z6 thead{
+    color: white;
+    font-weight: bold;
+}
+.z6{
+    display: flex;
+    justify-content: space-between;
+}
+.z7 span{
+    color: white;
+    font-weight: bold;
+}
+.z8 a{
+    color: white;
+    font-weight: bold;
+    margin-top: 5pc;
+}
+.z8 {
+    margin-top: 6px;
+}
+.z9 a{
+    color: white;
+    font-weight: bold;
+    margin-top: 5pc;
+}
+.z9{
+    margin-top: 6px;
+}
+.z0{
+    margin-top: 17px;
+}
+.z11{
+    margin-top: 10px;
+}
+.z11 img{
+    width: 50px;
+}
+.z12{
+    margin-top: 60px;
+}
+.z12 i{
+    color: white;
+    padding-left: 15px;
+}
+@media screen and (min-width: 600px) and (max-width: 1025px){
+    .z3{
+        position: relative;
+        right: 2.5pc;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 769px){
+    .z11 img{
+        width: 30px;
+    }
+    .z12{
+        margin-top: 20px;
+    }
+    .z12 i{
+        color: white;
+        padding-left: 10px;
+    }
+    .z3{
+        position: relative;
+        right: 19pc;
+        top: 7pc;
+    }
+    .z4{
+        display: none;
+    }
+}
+@media screen and (min-width: 60px) and (max-width: 426px){
+    .z3{
+        position: relative;
+        right: 19pc;
+        top: 7pc;
+    }
+    .z4{
+        display: none;
+    }
+}
+/* end footer */
