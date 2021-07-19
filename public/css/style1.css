@@ -322,39 +322,32 @@
         background-color: #1593FF;
     }
 }
-@media screen and (min-width: 40px) and (max-width: 380px) {
+@media screen and (min-width: 40px) and (max-width: 426px) {
     .boxbid{
-        height: 75px;
-        width: 350px;
+        height: 60px;
+        width: 380px;
         margin-left: 3.5pc;
-        padding-top: 10px;
-        margin-top: -7px;
-    }
-    .input{
-        width: 100px;
-        height: 30px;
-        border: none;
-        margin-left: -1.6pc;
-    }
-    .input2{
-        width: 80px;
-        height: 30px;
-        border: none;
-    }
-    .input3{
-        width: 80px;
-        height: 30px;
-        border: none;
+        padding-top: 1px;
     }
     .input4{
-        width: 80px;
-        height: 30px;
-        margin-top: 3px;
-        margin-right: 20px;
-        border-radius: 50px;
-        border: none;
-        color: white;
-        background-color: #1593FF;
+        margin: 10px !important;
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 75%;
+        right: 17%;
+    }
+}
+@media screen and (min-width: 40px) and (max-width: 380px) {
+    .boxbid{
+        height: 60px;
+        width: 350px;
+        margin-left: 3.5pc;
+        padding-top: 1px;
+        margin-top: -7px;
+    }
+    .input4{
+        padding: 10px;
     }
 }
 @media screen and (min-width: 40px) and (max-width: 325px) {
@@ -362,28 +355,12 @@
         height: 60px;
         width: 320px;
         margin-left: 2.6pc;
-        padding-top: 10px;
+        padding-top: 1px;
         margin-top: -1px;
-    }
-    .input{
-        width: 100px;
-        height: 20px;
-        border: none;
-        margin-left: -1.6pc;
-    }
-    .input2{
-        width: 80px;
-        height: 20px;
-        border: none;
-    }
-    .input3{
-        width: 80px;
-        height: 20px;
-        border: none;
     }
     .input4{
         width: 80px;
-        height: 20px;
+        height: 40px;
         margin-top: 3px;
         margin-right: 20px;
         border-radius: 50px;
@@ -1638,7 +1615,7 @@
 
 @media screen and (min-width: 60px) and (max-width: 430px){
     .backgtound-poster img{
-        height: 70vh;
+        height: 55vh;
     }
 }
 /* end footer */
