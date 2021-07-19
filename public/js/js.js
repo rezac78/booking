@@ -1,4 +1,4 @@
-let hearts = document.querySelectorAll(".far")
+let hearts = document.querySelectorAll(".fa-heart")
 
 hearts.forEach(heart=>{
     heart.addEventListener("click",()=>{
