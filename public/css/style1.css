@@ -8,6 +8,7 @@
 }
 .left{
     display: flex;
+    cursor: pointer;
 }
 .left input{
     background-color: #1593FF;
